@@ -1,15 +1,88 @@
 body {
-    background-color: black;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    margin: 50px;
 }
 
-.post {
-    margin:0 auto;
-    width: 1000px;
-    height: 600px;
-    background-color: white;
+.Post {
+    background: white;
+    width: 570px;
+    height: 670px;
+}
+
+.post-header {
     display: flex;
 }
 
-.post-header {display: inline;
+.logo {
+    background-image: url(https://i.pinimg.com/564x/1e/81/bb/1e81bb79a1a54b70c8690c26ae8ac15a.jpg);
+    margin: 23px;
+    width: 85px;
+    height: 85px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;    
 }
 
+.post-titulo, h1, h2 {
+    margin: 0px;
+    width: 105px;
+    height: 34px;
+   
+}
+
+.puntos {
+    background-image: url(https://i.pinimg.com/564x/74/c3/ad/74c3ad48494b0309e46c7470aa7d24b9.jpg);
+    margin: 10px;
+    width: 85px;
+    height: 85px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 239px;
+} 
+
+.post-img {
+    background-image: url(https://imageio.forbes.com/specials-images/imageserve/6552427075f8cabe3a24d6f1/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds>);
+    margin-top: 121px;
+    width: 570px;
+    height: 336px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.post-body {
+    margin: -59%;
+}
+
+.post-icons {
+    display: flex;
+    margin-top: 100ch;
+    position: relative;
+}
+
+.icons1 {
+    display: flex;
+    height: 39px;
+    width: 49px;
+}
+
+.icons2 { display: flex;
+    height: 37px;
+    width: 42px;
+}
+
+.icons3 {
+    display: flex;
+    height: 44px;
+    width: 46px;
+}
+
+.icons4 {
+    display: flex;
+    height: 39px;
+}

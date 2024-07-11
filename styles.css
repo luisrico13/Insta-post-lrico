@@ -1,5 +1,5 @@
 body {
-    background: rgb(0, 0, 0);
+    background: black;
     display: flex;
     justify-content: center;
     margin: 50px;
@@ -62,6 +62,7 @@ body {
 .post-icons {
     display: flex;
     margin-top: 100ch;
+    width: 100%;
     position: relative;
 }
 
@@ -85,4 +86,6 @@ body {
 .icons4 {
     display: flex;
     height: 39px;
+    justify-content: right;
+    margin-left: 380px;
 }
